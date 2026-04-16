@@ -334,7 +334,7 @@ tr:hover td  {
 
 /* علشان الصفحات متبوظش في الشاشات الصغيره */
 
- @media (max-width: 650px) {
+ @media (max-width: 850px) {
   .home-inform,.home-inform-2 {
     width: 90%;
     margin: 20px auto;
@@ -343,13 +343,14 @@ tr:hover td  {
     position: static;
     width: 90%;
     margin: 20px auto;
-    /* height: 500px; */
+    height: 500px; 
   } 
   .contact-info{
     width: 90%;
     margin: 20px auto;
   }
   table {
+    width: 90%;
     font-size: small;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
@@ -358,7 +359,7 @@ tr:hover td  {
     }
 } 
 
- @media(min-width:651px) and (max-width: 1200px) {
+ @media(min-width:851px) and (max-width: 1200px) {
   .home-inform,.home-inform-2 {
     width: 90%;
     margin: 20px auto;
@@ -367,14 +368,14 @@ tr:hover td  {
     position: static;
     width: 90%;
     margin: 20px auto;
-    height: 200px;
+    height: 190px;
   } 
   .contact-info{
     width: 90%;
     margin: 20px auto;
   }
   table {
-    width: 95%;
+    width: 90%;
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
