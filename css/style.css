@@ -335,6 +335,17 @@ tr:hover td  {
 /* علشان الصفحات متبوظش في الشاشات الصغيره */
 
  @media (max-width: 850px) {
+  body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    min-height: 100%;
+    overflow-y: auto; 
+    overflow-x: hidden;
+     padding-bottom: 80px;  
+    display: flex; 
+    flex-direction: column; 
+  }
   .home-inform,.home-inform-2 {
     width: 90%;
     margin: 20px auto;
