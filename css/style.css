@@ -155,7 +155,7 @@ button:hover{
     font-size: large;
     margin-bottom: 10px;
     margin-top: 10px;
-     max-width: 400px;
+    max-width: 400px;
     padding: 8px;
 }
 /*  div in add courses and contact us  */
@@ -334,7 +334,7 @@ tr:hover td  {
 
 /* علشان الصفحات متبوظش في الشاشات الصغيره */
 
- @media (max-width: 850px) {
+ @media (max-width: 650px) {
   html , body {
     max-width: 100%;
     overflow-x: hidden;
@@ -380,9 +380,15 @@ tr:hover td  {
     .get-start-button{
       margin-left: 30%;
     }
+    label{
+    font-size:large;
+    padding-left: 40px;
+    width: 250px;
 } 
 
- @media(min-width:851px) and (max-width: 1200px) {
+} 
+
+ @media(min-width:651px) and (max-width: 1200px) {
   .home-inform,.home-inform-2 {
     width: 90%;
     margin: 20px auto;
