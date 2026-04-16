@@ -342,7 +342,10 @@ tr:hover td  {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 0;                  /*  top  and bottom فقط */
+    padding: 10px  0;                  /*  top  and bottom فقط */
+  }
+  #h1{
+    padding-left: -20px;
   }
   nav{
     display: flex;
@@ -377,7 +380,7 @@ tr:hover td  {
     font-size: small;
   }
     .get-start-button{
-      margin-left: 110px; 
+      margin-left: 80px; 
     }
     label{
     font-size:medium;
