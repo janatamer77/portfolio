@@ -335,18 +335,26 @@ tr:hover td  {
 /* علشان الصفحات متبوظش في الشاشات الصغيره */
 
  @media (max-width: 850px) {
-  body{
-    margin: 0;
-    padding: 0;
-    background-color: whitesmoke;
-    min-height: 100%;
-    overflow-y: auto; 
+  html , body {
+    max-width: 100%;
     overflow-x: hidden;
-     padding-bottom: 80px;  
-    display: flex; 
-    flex-direction: column; 
   }
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+  }
+  nav{
+    display: flex;
+    justify-content: center;
+  }
+   nav a{
+    font-size: 15px;
+    padding: 5px;
+  } 
   .home-inform,.home-inform-2 {
+    position: static;
     width: 90%;
     margin: 20px auto;
   }
@@ -354,19 +362,23 @@ tr:hover td  {
     position: static;
     width: 90%;
     margin: 20px auto;
-    height: 500px; 
+    height: 300px; 
   } 
   .contact-info{
+    position: static;
     width: 90%;
     margin: 20px auto;
+    margin-top: 20px;
   }
   table {
-    width: 90%;
+    display: block;
+    overflow-x: auto;
+    width: 95%;
+    white-space: nowrap;
     font-size: small;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
     .get-start-button{
-      margin-left: 23%;
+      margin-left: 22%;
     }
 } 
 
@@ -388,9 +400,8 @@ tr:hover td  {
   table {
     width: 90%;
     font-size: medium;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
     .get-start-button{
-      margin-left: 33%;
+      margin-left: 35%;
     }
 } 
