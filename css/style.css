@@ -378,7 +378,7 @@ tr:hover td  {
     font-size: small;
   }
     .get-start-button{
-      margin-left: 26%;
+      margin-left: 20%;
     }
     label{
     font-size:medium;
@@ -415,30 +415,4 @@ tr:hover td  {
       margin-left: 35%;
     }
 } 
- /* @media(min-width:851px) and (max-width: 1200px) {
-    nav a{
-    font-size:large;
-    padding: 15px;
-  } 
-  .home-inform,.home-inform-2 {
-    width: 90%;
-    margin: 20px auto;
-  }
-  .background-in-home,.background-in-add {
-    position: static;
-    width: 90%;
-    margin: 20px auto;
-    height: 190px;
-  } 
-  .contact-info{
-    width: 90%;
-    margin: 20px auto;
-  }
-  table {
-    width: 95%;
-    font-size: medium;
-  }
-    .get-start-button{
-      margin-left: 35%;
-    }
-}  */
+
