@@ -350,7 +350,7 @@ tr:hover td  {
     justify-content: center;
   }
    nav a{
-    font-size: 17px;
+    font-size: small;
     padding: 0px;
   } 
   .home-inform,.home-inform-2 {
@@ -373,15 +373,15 @@ tr:hover td  {
   table {
     display: block;
     overflow-x: auto;
-    width: 95%;
+    /* width: 95%; */
     white-space: nowrap;
     font-size: small;
   }
     .get-start-button{
-      margin-left: 30%;
+      margin-left: 26%;
     }
     label{
-    font-size:large;
+    font-size:medium;
     padding-left: 40px;
     width: 250px;
 } 
@@ -389,6 +389,10 @@ tr:hover td  {
 } 
 
  @media(min-width:651px) and (max-width: 1200px) {
+    nav a{
+    font-size:medium;
+    padding: 0px;
+  } 
   .home-inform,.home-inform-2 {
     width: 90%;
     margin: 20px auto;
@@ -404,10 +408,37 @@ tr:hover td  {
     margin: 20px auto;
   }
   table {
-    width: 90%;
+    width: 95%;
     font-size: medium;
   }
     .get-start-button{
       margin-left: 35%;
     }
 } 
+ /* @media(min-width:851px) and (max-width: 1200px) {
+    nav a{
+    font-size:large;
+    padding: 15px;
+  } 
+  .home-inform,.home-inform-2 {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .background-in-home,.background-in-add {
+    position: static;
+    width: 90%;
+    margin: 20px auto;
+    height: 190px;
+  } 
+  .contact-info{
+    width: 90%;
+    margin: 20px auto;
+  }
+  table {
+    width: 95%;
+    font-size: medium;
+  }
+    .get-start-button{
+      margin-left: 35%;
+    }
+}  */
