@@ -151,7 +151,7 @@ button:hover{
 /*   input in add course and contact us */
  input{
     flex: 1;
-    text-align: center;
+    text-align: left;
     outline-color:  #6a1b9a;
     border-radius: 17px;
     border: 1px solid #ccc;
@@ -346,6 +346,7 @@ tr:hover td  {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding: 10px  0;                  /*  top  and bottom فقط */
   }
   nav{
